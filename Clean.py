@@ -53,7 +53,7 @@ def main():
     comments_df = pd.read_csv("Data/DFCF_SH.csv", encoding='utf-8')
 
     # read in the SSE000001 CSV file
-    ssec_df = pd.read_csv("Data/000001SH_Trad.csv")
+    ssec_df = pd.read_csv("input/000001SH_Trad.csv")
 
     # filter the comments based on SSE000001 trading dates
     ssec_dates = set(ssec_df["DateTime"])
